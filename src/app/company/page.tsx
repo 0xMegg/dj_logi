@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const metadata = {
   title: "회사소개 - DJ LOGI",
   description: "회사소개 페이지입니다.",

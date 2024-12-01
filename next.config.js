@@ -4,9 +4,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: "/dj_logi",
-  assetPrefix: "/dj_logi/",
-  trailingSlash: true,
 };
 
 module.exports = nextConfig;
