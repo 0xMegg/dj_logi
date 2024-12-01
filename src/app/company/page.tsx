@@ -1,4 +1,9 @@
-export default function CompanyPage() {
+export const metadata = {
+  title: "회사소개 - DJ LOGI",
+  description: "회사소개 페이지입니다.",
+};
+
+export default function Company() {
   return (
     <main className="pt-16 min-h-screen">
       <div className="max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
