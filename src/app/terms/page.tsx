@@ -7,9 +7,9 @@ export default function Terms() {
         <section>
           <h2 className="text-xl font-semibold mb-4">제1조 (목적)</h2>
           <p className="text-gray-700">
-            본 약관은 주식회사 예시기업 (이하 "회사")이 운영하는 웹사이트(이하
-            "사이트")의 이용 조건 및 절차, 회사와 이용자의 권리, 의무 및
-            책임사항을 규정함을 목적으로 합니다.
+            본 약관은 주식회사 예시기업 (이하 &quot;회사&quot;)이 운영하는
+            웹사이트(이하 &quot;사이트&quot;)의 이용 조건 및 절차, 회사와
+            이용자의 권리, 의무 및 책임사항을 규정함을 목적으로 합니다.
           </p>
         </section>
 
@@ -17,12 +17,12 @@ export default function Terms() {
           <h2 className="text-xl font-semibold mb-4">제2조 (정의)</h2>
           <ul className="list-disc pl-5 space-y-2 text-gray-700">
             <li>
-              "사이트"란 회사가 정보를 제공하기 위하여 컴퓨터 등 정보통신설비를
-              이용하여 설정한 가상의 영업장을 말합니다.
+              &quot;사이트&quot;란 회사가 정보를 제공하기 위하여 컴퓨터 등
+              정보통신설비를 이용하여 설정한 가상의 영업장을 말합니다.
             </li>
             <li>
-              "이용자"란 사이트에 접속하여 이 약관에 따라 회사가 제공하는
-              서비스를 받는 회원 및 비회원을 말합니다.
+              &quot;이용자&quot;란 사이트에 접속하여 이 약관에 따라 회사가
+              제공하는 서비스를 받는 회원 및 비회원을 말합니다.
             </li>
           </ul>
         </section>

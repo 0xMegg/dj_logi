@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   return (
@@ -7,7 +8,13 @@ const Navbar = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex space-x-7">
             <Link href="/" className="flex items-center py-4">
-              <img src="/djLogo_nav.png" alt="로고" className="h-8" />
+              <Image
+                src="/djLogo_nav.png"
+                alt="로고"
+                className="h-8"
+                width={32}
+                height={32}
+              />
             </Link>
           </div>
           <div className="hidden md:flex items-center space-x-8">
