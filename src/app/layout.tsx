@@ -1,24 +1,15 @@
-// import { Geist, Geist_Mono } from "next/font/google";
+import { Noto_Sans_KR } from "next/font/google";
 import "./globals.css";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import { Analytics } from "@vercel/analytics/react";
-// import localFont from "next/font/local";
 
-// const pretendard = localFont({
-//   src: "next/font/local/target.css",
-//   variable: "--font-pretendard",
-// });
-
-// const geistSans = Geist({
-//   variable: "--font-geist-sans",
-//   subsets: ["latin"],
-// });
-
-// const geistMono = Geist_Mono({
-//   variable: "--font-geist-mono",
-//   subsets: ["latin"],
-// });
+const notoSansKr = Noto_Sans_KR({
+  subsets: ["latin"],
+  weight: ["400", "500", "700"],
+  preload: true,
+  display: "swap",
+});
 
 export const metadata = {
   title: "동진특수물류",
@@ -34,9 +25,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    // <html lang="ko" className={`${pretendard.variable}`}>
-    <html>
-      <body className="font-pretendard">
+    <html lang="ko" className={notoSansKr.className}>
+      <body>
         <Navbar />
         {children}
         <Footer />
