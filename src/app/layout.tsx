@@ -1,33 +1,33 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+// import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import { Analytics } from "@vercel/analytics/react";
-import localFont from "next/font/local";
+// import localFont from "next/font/local";
 
-const pretendard = localFont({
-  src: "../../public/fonts/PretendardVariable.woff2",
-  variable: "--font-pretendard",
-});
+// const pretendard = localFont({
+//   src: "next/font/local/target.css",
+//   variable: "--font-pretendard",
+// });
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+// const geistSans = Geist({
+//   variable: "--font-geist-sans",
+//   subsets: ["latin"],
+// });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+// const geistMono = Geist_Mono({
+//   variable: "--font-geist-mono",
+//   subsets: ["latin"],
+// });
 
-export const metadata: Metadata = {
-  title: "동진특수물류",
-  description: "동진특수물류 공식 웹사이트",
-  icons: {
-    icon: "/images/logo.png",
-  },
-};
+// export const metadata: Metadata = {
+//   title: "동진특수물류",
+//   description: "동진특수물류 공식 웹사이트",
+//   icons: {
+//     icon: "/images/logo.png",
+//   },
+// };
 
 export default function RootLayout({
   children,
@@ -35,10 +35,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="ko"
-      className={`${geistSans.variable} ${geistMono.variable} ${pretendard.variable}`}
-    >
+    <html lang="ko" className={`${pretendard.variable}`}>
       <body className="font-pretendard">
         <Navbar />
         {children}
